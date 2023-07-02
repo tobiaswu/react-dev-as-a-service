@@ -9,13 +9,13 @@ export const Header = () => {
           preRenderFirstString={true}
           sequence={[
             500,
-            `I'm a Software Engineer`, // initially rendered starting point
+            "I'm a Software Engineer", // initially rendered starting point
             1000,
-            `I'm an IT Consultant`,
+            "I'm an IT Consultant",
             1000,
-            `I'm a React TS Veteran`,
+            "I'm a React TS Veteran",
             1000,
-            `I'm an AI Enthusiast`,
+            "I'm an AI Enthusiast",
             500,
           ]}
           speed={50}
