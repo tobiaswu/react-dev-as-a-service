@@ -14,6 +14,10 @@ export const HeaderContainer = styled.header`
   @media (max-width: 1024px) {
     background-position: left;
   }
+
+  @media (max-width: 480px) {
+    background-image: url('tobias-suit-small.jpeg');
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -24,7 +28,6 @@ export const TextContainer = styled.div`
   padding: 2rem;
 
   @media (max-width: 1024px) {
-    right: 0%;
     left: unset;
     background-color: rgba(37, 37, 37, 0.5);
     transform: unset;
