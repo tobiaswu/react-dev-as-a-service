@@ -24,7 +24,7 @@ export const Header = () => {
         <HeaderDescription>I'm a Full Stack Software Engineer empowering your business with scalable web solutions available for contract work and freelance projects</HeaderDescription>
         <HeaderButtonContainer>
           <HeaderPrimaryButton href="mailto:mail@tobiaswupperfeld.com">Get in touch</HeaderPrimaryButton>
-          <HeaderSecondaryButton href="230710-CV-WUPPERFELD-TOBIAS-EN.pdf" target="_blank"
+          <HeaderSecondaryButton href="230809-CV-WUPPERFELD-TOBIAS-EN.pdf" target="_blank"
             rel="noreferrer">Download CV</HeaderSecondaryButton>
         </HeaderButtonContainer>
       </TextContainer>
