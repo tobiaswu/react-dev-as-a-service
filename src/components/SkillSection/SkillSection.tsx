@@ -14,7 +14,7 @@ or to step back into safety."
       />
 
       <div className="mt-40 px-4 grid md:grid-cols-2 gap-5">
-        <div className="flex flex-col lg:flex-row md:col-span-2 rounded-xl overflow-scroll bg-white bg-opacity-70 bg-[url(/img/blob-intro)] md:bg-cover">
+        <div className="flex flex-col lg:flex-row md:col-span-2 rounded-xl overflow-scroll bg-white bg-opacity-70">
           <div className="flex-[4] p-6 md:p-16">
             <h3 className="sm:text-4xl text-3xl mb-4 font-bold bg-gradient-to-r from-azure to-palatinate_blue-400 text-transparent bg-clip-text">
               Accomplishments
