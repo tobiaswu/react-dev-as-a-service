@@ -20,7 +20,7 @@ export const HeroSection = () => {
               1000,
               "I'm a IT Consultant",
               1000,
-              "I'm a React TypeScript Veteran",
+              "I'm a React TS Veteran",
               1000,
               "I'm a AI Enthusiast",
               500,

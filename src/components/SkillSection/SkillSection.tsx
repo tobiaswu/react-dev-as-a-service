@@ -9,7 +9,7 @@ export const SkillSection = () => {
     <section className="mt-40 grid md:grid-cols-2 gap-5 px-4">
       <div className="flex flex-col lg:flex-row md:col-span-2 rounded-xl overflow-scroll bg-white bg-[url(/)] bg-stretch md:bg-cover">
         <div className="flex-[4] p-6 md:p-16">
-          <h3 className="text-4xl mb-4 font-bold bg-gradient-to-r from-azure to-palatinate_blue-400 text-transparent bg-clip-text">
+          <h3 className="sm:text-4xl text-3xl mb-4 font-bold bg-gradient-to-r from-azure to-palatinate_blue-400 text-transparent bg-clip-text">
             Accomplishments
           </h3>
           <p className="text-azure-200 mb-6 text-lg">
