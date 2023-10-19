@@ -1,95 +1,34 @@
-import Link from 'next/link';
+import { SkillLink } from '@/components/SkillLink/SkillLink';
 
 export const frontendText = (
-  <ul>
+  <ul className="pl-4">
     <li>
       Modern{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
+      <SkillLink
         href="https://en.wikipedia.org/wiki/JavaScript"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        JavaScript
-      </Link>{' '}
+        title="JavaScript"
+      />{' '}
       and{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://www.typescriptlang.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        TypeScript
-      </Link>
+      <SkillLink href="https://www.typescriptlang.org/" title="TypeScript" />
     </li>
     <li>
       Single page applications built within the{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://react.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        React ecosystem
-      </Link>
+      <SkillLink href="https://react.dev/" title="React ecosystem" />
     </li>
     <li>
       Styling: plain CSS,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://tailwindcss.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        TailwindCSS
-      </Link>
-      ,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://cssinjs.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        CSS-in-JS
-      </Link>
-      ,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
+      <SkillLink href="https://tailwindcss.com/" title="TailwindCSS" />,{' '}
+      <SkillLink href="https://cssinjs.org/" title="CSS-in-JS" />,{' '}
+      <SkillLink
         href="https://styled-components.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Styled-Components
-      </Link>
-      ,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://mui.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        MaterialUI
-      </Link>
+        title="Styled-Components"
+      />
+      , <SkillLink href="https://mui.com/" title="MaterialUI" />
     </li>
     <li>
-      Testing:{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://jestjs.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Jest
-      </Link>
-      , React-Testing-Library,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://www.cypress.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Cypress
-      </Link>
+      Testing: <SkillLink href="https://jestjs.io/" title="Jest" />,
+      React-Testing-Library,{' '}
+      <SkillLink href="https://www.cypress.io/" title="Cypress" />
     </li>
     <li>UI & UX responsive designs</li>
     <li>
@@ -97,153 +36,52 @@ export const frontendText = (
       memoization
     </li>
     <li>
-      Frameworks:{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://nextjs.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        NextJS
-      </Link>
-      ,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Vite
-      </Link>
-      ,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
+      Frameworks: <SkillLink href="https://nextjs.org/" title="NextJS" />,{' '}
+      <SkillLink href="https://vitejs.dev/" title="Vite" />,{' '}
+      <SkillLink
         href="https://create-react-app.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Create-React-App
-      </Link>
+        title="Create-React-App"
+      />
     </li>
   </ul>
 );
 
 export const backendText = (
-  <ul>
+  <ul className="pl-4">
     <li>
       NodeJS web servers:{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://nestjs.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        NestJS
-      </Link>
+      <SkillLink href="https://nestjs.com/" title="NestJS" />
     </li>
     <li>
       Microservice architecture:{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://www.python.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Python
-      </Link>
+      <SkillLink href="https://www.python.org/" title="Python" />
     </li>
     <li>
-      APIs: REST &{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://graphql.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GraphQL
-      </Link>
+      APIs: REST & <SkillLink href="https://graphql.org/" title="GraphQL" />
     </li>
     <li>
-      Cloud providers:{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://aws.amazon.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        AWS
-      </Link>
-      ,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://vercel.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Vercel
-      </Link>
+      Cloud providers: <SkillLink href="https://aws.amazon.com/" title="AWS" />,{' '}
+      <SkillLink href="https://vercel.com/" title="Vercel" />
     </li>
     <li>
       Infrastructure:{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://www.docker.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Docker
-      </Link>
-      ,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://kubernetes.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Kubernetes
-      </Link>
-      ,{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://www.terraform.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Terraform
-      </Link>
+      <SkillLink href="https://www.docker.com/" title="Docker" />,{' '}
+      <SkillLink href="https://kubernetes.io/" title="Kubernetes" />,{' '}
+      <SkillLink href="https://www.terraform.io/" title="Terraform" />
     </li>
     <li>
       Databases:{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://www.postgresql.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        PostgreSQL
-      </Link>
+      <SkillLink href="https://www.postgresql.org/" title="PostgreSQL" />
     </li>
     <li>
-      BaaS:{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://supabase.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Supabase
-      </Link>
+      BaaS: <SkillLink href="https://supabase.com/" title="Supabase" />
     </li>
     <li>
-      CI/CD:{' '}
-      <Link
-        className="text-palatinate_blue hover:text-azure transition duration-300"
-        href="https://gitlab.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Gitlab pipelines
-      </Link>
+      CI/CD: <SkillLink href="https://gitlab.com/" title="Gitlab pipelines" />
+    </li>
+    <li>
+      Misc: <SkillLink href="https://cube.dev/" title="CubeJS" />,{' '}
+      <SkillLink href="https://superset.apache.org/" title="Superset" />
     </li>
   </ul>
 );

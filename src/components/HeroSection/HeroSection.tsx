@@ -36,7 +36,7 @@ export const HeroSection = () => {
         </p>
         <div className="flex items-center mt-8 animate-slide-up">
           <Link href="mailto:mail@tobiaswupperfeld.com">
-            <button className="mr-4 bg-gold_metallic py-2 px-4 rounded-xl uppercase hover:bg-gold_metallic-400 border-4 border-gold_metallic-400 font-semibold transition duration-300 ease-in-out">
+            <button className="mr-4 bg-gold_metallic-400 text-white py-2 px-4 rounded-xl uppercase hover:bg-transparent border-4 border-gold_metallic-400 font-semibold transition duration-300">
               Get in touch
             </button>
           </Link>
@@ -45,7 +45,7 @@ export const HeroSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="py-2 px-4 rounded-xl uppercase border-4 border-gold_metallic-400 hover:bg-gold_metallic-400 text-white font-semibold transition duration-300 ease-in-out">
+            <button className="py-2 px-4 rounded-xl uppercase border-4 border-white hover:border-gold_metallic text-white hover:text-gold_metallic font-semibold transition duration-300">
               Download profile
             </button>
           </Link>

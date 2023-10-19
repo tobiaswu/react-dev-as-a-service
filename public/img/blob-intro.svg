@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="308.58908mm"
+   height="281.28305mm"
+   viewBox="0 0 308.58908 281.28305"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2"
+       x="-0.32845414"
+       y="-0.33283353"
+       width="1.6569083"
+       height="1.6656671">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="19.156297"
+         id="feGaussianBlur2" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter3"
+       x="-0.92997829"
+       y="-0.53188228"
+       width="2.8599566"
+       height="2.0637646">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="24.236622"
+         id="feGaussianBlur3" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4"
+       x="-0.82222862"
+       y="-1.3247016"
+       width="2.6444572"
+       height="3.6494031">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="34.311901"
+         id="feGaussianBlur4" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(62.394735,6.6869982)">
+    <ellipse
+       style="mix-blend-mode:normal;fill:#d4af37;fill-opacity:1;stroke-width:0.264583;filter:url(#filter2)"
+       id="path1"
+       cx="99.071342"
+       cy="108.35435"
+       rx="69.987114"
+       ry="69.066231"
+       inkscape:export-filename="path1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="mix-blend-mode:normal;fill:#377ed4;fill-opacity:1;stroke-width:0.264583;filter:url(#filter3)"
+       id="path2"
+       cx="156.75269"
+       cy="114.54266"
+       rx="31.27379"
+       ry="54.681171" />
+    <ellipse
+       style="mix-blend-mode:normal;fill:#5437d4;fill-opacity:1;stroke-width:0.264583;filter:url(#filter4)"
+       id="path3"
+       cx="70.030266"
+       cy="161.16553"
+       rx="50.076439"
+       ry="31.08193" />
+  </g>
+</svg>
