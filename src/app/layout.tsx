@@ -1,4 +1,6 @@
+import { Footer } from '@/components/Footer/Footer';
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 import { Montserrat } from 'next/font/google';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
@@ -17,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
-        <main>{children}</main>
+        {children}
+        <Footer />
+        <Analytics />
       </body>
     </html>
   );

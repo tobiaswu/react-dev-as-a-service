@@ -41,7 +41,7 @@ export const HeroSection = () => {
             </button>
           </Link>
           <Link
-            href="230809-CV-WUPPERFELD-TOBIAS-EN.pdf"
+            href="CV-WUPPERFELD-TOBIAS-EN.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

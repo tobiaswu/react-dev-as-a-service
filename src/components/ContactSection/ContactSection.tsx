@@ -1,12 +1,13 @@
-'use client';
-
 import AnimateOnScroll from '@/util/AnimateOnScroll';
 import { ContactIcon } from '../ContactIcon/ContactIcon';
-import { contactOptions } from '@/lib/contactOptions';
+import { contactOptions } from '@/lib';
 
 export const ContactSection = () => {
   return (
-    <section className="flex flex-col sm:flex-row justify-between items-center px-4">
+    <section
+      className="flex flex-col sm:flex-row justify-between items-center px-4"
+      id="contact"
+    >
       <div className="flex-[6] mb-8 sm:mb-0">
         <AnimateOnScroll>
           <h3 className="font-bold text-5xl mb-6 text-azure-200">

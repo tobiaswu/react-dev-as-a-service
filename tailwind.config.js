@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/img/tobias-suit-bg.jpg')",
-        'hero-pattern-s': "url('/img/tobias-suit-small.jpeg')",
+        'hero-pattern': "url('/img/tobias-suit-bg.webp')",
+        'hero-pattern-s': "url('/img/tobias-suit-small.webp')",
       },
       animation: {
         'slide-up': 'slide-up 0.5s ease-out',

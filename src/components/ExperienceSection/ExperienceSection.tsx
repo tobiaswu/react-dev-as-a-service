@@ -2,7 +2,7 @@
 
 import { ExperienceCard } from '../ExperienceCard/ExperienceCard';
 import { SectionHeading } from '../SectionHeading/SectionHeading';
-import { experiences } from '@/lib/experiences';
+import { experiences } from '@/lib';
 
 export const ExperienceSection = () => {
   return (
