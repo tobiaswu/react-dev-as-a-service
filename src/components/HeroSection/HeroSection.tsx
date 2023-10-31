@@ -29,7 +29,7 @@ export const HeroSection = () => {
             repeat={Infinity}
           />
         </div>
-        <p className="my-8 max-w-xl animate-slide-up text-lg">
+        <p className="my-8 max-w-xl animate-slide-up text-lg text-white">
           I&apos;m a Full Stack Software Engineer empowering your business with
           scalable web solutions available for contract work and freelance
           projects

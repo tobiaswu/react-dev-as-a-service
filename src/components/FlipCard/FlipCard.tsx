@@ -29,6 +29,7 @@ export const FlipCard = ({
             className="rounded-lg object-cover object-left-top shadow-md shadow-black/10"
             src={`/img/${source}`}
             alt={description}
+            loading='lazy'
             fill
           />
         </div>

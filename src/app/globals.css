@@ -7,11 +7,6 @@ body {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-h1,
-p {
-  color: white;
-}
-
 ul {
   list-style-type: disc;
 }
