@@ -13,7 +13,7 @@ export const ExperienceSection = () => {
             commitment since 2019"
       />
 
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-32">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-32 px-4">
         {experiences.map((item, index) => {
           return (
             <ExperienceCard

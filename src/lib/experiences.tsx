@@ -45,9 +45,8 @@ export const experiences = [
           (wupperfeld.org)
         </Link>
         .<br></br>
-        An agency specializing in Ai solutions & automation (coming soon).
-        <br></br>A volunteer app (coming soon).
-        <br></br>A trucking route creator app (coming soon).
+        An agency specializing in ai-solutions & automation.
+        <br></br>A volunteering app (under development).
       </>
     ),
     link: '/',

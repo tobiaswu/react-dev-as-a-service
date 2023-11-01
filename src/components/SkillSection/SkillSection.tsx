@@ -38,7 +38,7 @@ or to step back into safety."
                 href="mailto:mail@tobiaswupperfeld.com"
               >
                 <Image
-                  src="/img/arrow-right.svg"
+                  src="/icons/arrow-right.svg"
                   alt="arrow-right"
                   loading="lazy"
                   width="24"
