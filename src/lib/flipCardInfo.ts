@@ -1,5 +1,12 @@
 export const imgTiles = [
   {
+    source: 'hero-bg.webp',
+    title: 'My Freelance Website',
+    subTitle: 'Private Project',
+    description:
+      'This website is made with heart utilizing React and the NextJS framework and entirely styled with TailwindCSS. I use this as a playground to constantly test new tools.',
+  },
+  {
     source: 'volunteer-app-home.webp',
     title: 'Volunteering App',
     subTitle: 'Private Project',

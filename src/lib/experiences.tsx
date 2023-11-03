@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export const experiences = [
   {
@@ -34,7 +34,7 @@ export const experiences = [
     title: 'Chief Automation Officer',
     description: (
       <>
-        2019 - today: I&apos;ve been working on several projects. My current
+        2019 - today: I&apos;ve been working on several projects. All my
         ventures are listed here{' '}
         <Link
           className="text-palatinate_blue hover:text-azure transition duration-300"
@@ -45,8 +45,10 @@ export const experiences = [
           (wupperfeld.org)
         </Link>
         .<br></br>
-        An agency specializing in ai-solutions & automation.
-        <br></br>A volunteering app (under development).
+        I&apos;m running a productized service provider specializing in
+        ai-solutions & automation.
+        <br></br>Besides I&apos;m developing a web app in the non-profit /
+        charity sector.
       </>
     ),
     link: '/',
