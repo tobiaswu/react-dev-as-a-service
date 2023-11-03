@@ -52,10 +52,11 @@ or to step back into safety."
             <Image
               className="my-10"
               src="/img/wordcloud.webp"
-              alt="wordcloud"
+              alt="react developer skill cloud"
               loading="lazy"
               width="560"
               height="560"
+              title="React developer skill cloud"
             />
           </div>
         </div>

@@ -1,19 +1,22 @@
 import { Navigation } from '@/components/Navigation/Navigation';
+import { PageHeading } from '@/components/PageHeading/PageHeading';
+import { ServiceNavigationCard } from '@/components/ServiceNavigationCard/ServiceNavigationCard';
+import { ServiceRequestCard } from '@/components/ServiceRequestCard/ServiceRequestCard';
 import { Pages } from '@/types';
-import AnimateOnScroll from '@/util/AnimateOnScroll';
-import Image from 'next/image';
-import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Tobias Wupperfeld | Business App Consultation | React',
+  description:
+    'Tobias Wupperfelds business app consultation service, tailored solutions ✓ discovery call ✓ transparent project planning ✓ cost estimation ✓ get in touch now',
+};
 
 export default function Consultation() {
   return (
     <div>
       <Navigation page={Pages.services} />
       <div className="container mx-auto pb-40 px-4">
-        <AnimateOnScroll>
-          <h1 className="pt-32 pb-24 text-5xl font-bold bg-gradient-to-r from-azure to-palatinate_blue-400 text-transparent bg-clip-text">
-            Business App Consultation
-          </h1>
-        </AnimateOnScroll>
+        <PageHeading title="Business App Consultation" />
 
         <h2 className="uppercase font-semibold mb-8 text-xl text-slate-500">
           About this service
@@ -26,21 +29,21 @@ export default function Consultation() {
           ensuring that your project not only meets but exceeds your
           expectations.
         </p>
-        <p className="font-semibold text-xl mt-8 mb-4 text-azure-400">
+        <h3 className="font-semibold text-xl mt-8 mb-4 text-azure-400">
           What you can expect:
-        </p>
+        </h3>
         <ol className="list-decimal pl-4 text-lg">
           <li className="mb-2">
-            <h3 className="font-semibold text-palatinate_blue">Expertise:</h3>
+            <h4 className="font-semibold text-palatinate_blue">Expertise:</h4>
             <p>
               With years of experience in web app development, I provide expert
               guidance and deliver industry-leading solutions.
             </p>
           </li>
           <li className="mb-2">
-            <h3 className="font-semibold text-palatinate_blue">
+            <h4 className="font-semibold text-palatinate_blue">
               Tailored Solutions:
-            </h3>
+            </h4>
             <p>
               Your project is unique, and I&apos;ll listen to your needs,
               crafting a customized strategy that sets your web app apart from
@@ -48,27 +51,27 @@ export default function Consultation() {
             </p>
           </li>
           <li className="mb-2">
-            <h3 className="font-semibold text-palatinate_blue">
+            <h4 className="font-semibold text-palatinate_blue">
               Results-Driven:
-            </h3>
+            </h4>
             <p>
               Your success is my top priority, and I offer actionable insights
               to enhance performance and boost user engagement.
             </p>
           </li>
           <li className="mb-2">
-            <h3 className="font-semibold text-palatinate_blue">
+            <h4 className="font-semibold text-palatinate_blue">
               Maximizing ROI:
-            </h3>
+            </h4>
             <p>
               I carefully analyze your goals and budget, helping you make
               well-informed decisions that optimize your investment.
             </p>
           </li>
           <li>
-            <h3 className="font-semibold text-palatinate_blue">
+            <h4 className="font-semibold text-palatinate_blue">
               Confidentiality:
-            </h3>
+            </h4>
             <p>
               Your project details are handled with the utmost discretion and
               confidentiality.
@@ -83,7 +86,7 @@ export default function Consultation() {
         <h2 className="uppercase font-semibold mb-8 text-xl text-slate-500">
           What&apos;s included
         </h2>
-        <ul className="text-lg pl-4">
+        <ul className="text-lg pl-4 mb-16">
           <li className="mb-2">
             <h3 className="font-semibold text-palatinate_blue">
               Discovery Call
@@ -123,40 +126,15 @@ export default function Consultation() {
           </li>
         </ul>
 
-        <div className="my-16 py-16 px-8 border-2 rounded-xl shadow-sm bg-[url(/img/blob-intro.svg)] bg-no-repeat bg-top bg-white/60">
-          <h2 className="font-semibold text-4xl">Work with me</h2>
-          <Link href="/#contact">
-            <button className="flex gap-2 px-8 py-4 bg-palatinate_blue rounded-full mt-8 hover:bg-palatinate_blue-400 text-lg font-bold text-white tracking-wider transition duration-300">
-              <Image
-                src="/icons/arrow-right.svg"
-                alt="contact icon"
-                width="24"
-                height="24"
-              />
-              <p className="">Request to book</p>
-            </button>
-          </Link>
-        </div>
+        <ServiceRequestCard />
 
         <h2 className="uppercase font-semibold mt-16 mb-8 text-xl text-slate-500">
           More services
         </h2>
-        <div className="bg-white/60 rounded-xl border-2 flex justify-between items-center bg-[url(/img/blob-portfolio.svg)] bg-cover bg-top shadow-sm">
-          <Link href="/services/development">
-            <p className="text-lg font-semibold py-8 pl-8">
-              Web App Development
-            </p>
-          </Link>
-          <Link className="flex gap-2 pl-8" href="/#contact">
-            <Image
-              src="/icons/arrow-right.svg"
-              alt="contact icon"
-              width="24"
-              height="24"
-            />
-            <p className="font-semibold py-8 pr-8">Contact for pricing</p>
-          </Link>
-        </div>
+        <ServiceNavigationCard
+          name="Web App Development"
+          slug="/services/development"
+        />
       </div>
     </div>
   );

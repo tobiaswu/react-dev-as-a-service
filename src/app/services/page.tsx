@@ -1,19 +1,22 @@
 import { Navigation } from '@/components/Navigation/Navigation';
+import { PageHeading } from '@/components/PageHeading/PageHeading';
 import { ServiceCard } from '@/components/ServiceCard/ServiceCard';
 import { conTags, devTags } from '@/lib';
 import { Pages } from '@/types';
-import AnimateOnScroll from '@/util/AnimateOnScroll';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Tobias Wupperfeld | Services | React App Development',
+  description:
+    'Tobias Wupperfelds react app development services, consulting and engineering ✓ modern web development ✓ ex SAP engineer ✓ talk to an expert ✓ get in touch now',
+};
 
 export default function Services() {
   return (
     <div className="bg-[url(/img/blob-portfolio.svg)] bg-cover bg-top">
       <Navigation page={Pages.services} />
       <div className="container mx-auto pb-40 px-4">
-        <AnimateOnScroll>
-          <h1 className="pt-32 pb-24 text-5xl font-bold bg-gradient-to-r from-azure to-palatinate_blue-400 text-transparent bg-clip-text">
-            My Services
-          </h1>
-        </AnimateOnScroll>
+        <PageHeading title="My Services" />
         <div className="grid lg:grid-cols-2 gap-8 animate-slide-up">
           <ServiceCard
             key="service-1"

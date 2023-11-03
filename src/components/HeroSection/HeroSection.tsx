@@ -20,7 +20,7 @@ export const HeroSection = () => {
               1000,
               "I'm a IT Consultant",
               1000,
-              "I'm a React TS Veteran",
+              "I'm a React TS Developer",
               1000,
               "I'm a AI Enthusiast",
               500,
@@ -30,13 +30,13 @@ export const HeroSection = () => {
           />
         </div>
         <p className="my-8 max-w-xl animate-slide-up text-lg text-white">
-          I&apos;m a Full Stack Software Engineer empowering your business with
-          scalable web solutions available for contract work and freelance
+          I&apos;m a Full Stack React Software Engineer empowering your business
+          with scalable web solutions available for contract work and freelance
           projects
         </p>
         <div className="flex items-center mt-8 animate-slide-up">
           <Link href="mailto:mail@tobiaswupperfeld.com">
-            <button className="mr-4 bg-gold_metallic-400 text-white py-2 px-4 rounded-xl uppercase hover:bg-transparent border-4 border-gold_metallic-400 font-semibold transition duration-300">
+            <button className="mr-4 bg-gold_metallic-400 text-white py-2 px-4 rounded-xl uppercase hover:bg-transparent border-4 border-gold_metallic-400 font-bold tracking-wider transition duration-300">
               Get in touch
             </button>
           </Link>

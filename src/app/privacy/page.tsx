@@ -1,6 +1,13 @@
 import { Navigation } from '@/components/Navigation/Navigation';
 import { Pages } from '@/types';
 import AnimateOnScroll from '@/util/AnimateOnScroll';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Tobias Wupperfeld | Privacy Policy',
+  description:
+    'Everything about how we handle your data ✓ Tobias Wupperfeld ✓ full stack ✓ React developer ✓ ex SAP engineer ✓ talk to an expert ✓ get in touch now',
+};
 
 export default function Privacy() {
   return (

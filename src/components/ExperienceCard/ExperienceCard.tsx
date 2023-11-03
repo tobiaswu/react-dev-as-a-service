@@ -15,7 +15,7 @@ export const ExperienceCard = ({
 }: ExperienceCardProps) => {
   return (
     <div className="rounded-xl overflow-scroll bg-white bg-opacity-70 p-6 md:p-16">
-      <h4 className="text-2xl font-bold bg-gradient-to-r from-azure to-palatinate_blue-400 text-transparent bg-clip-text mb-4">
+      <h3 className="text-2xl font-bold bg-gradient-to-r from-azure to-palatinate_blue-400 text-transparent bg-clip-text mb-4">
         <>
           {title}
           <br></br>
@@ -28,7 +28,7 @@ export const ExperienceCard = ({
             {linkText}
           </Link>
         </>
-      </h4>
+      </h3>
       <p className="text-azure-200 text-lg">{description}</p>
     </div>
   );

@@ -1,19 +1,22 @@
 import { Navigation } from '@/components/Navigation/Navigation';
+import { PageHeading } from '@/components/PageHeading/PageHeading';
+import { ServiceNavigationCard } from '@/components/ServiceNavigationCard/ServiceNavigationCard';
+import { ServiceRequestCard } from '@/components/ServiceRequestCard/ServiceRequestCard';
 import { Pages } from '@/types';
-import AnimateOnScroll from '@/util/AnimateOnScroll';
-import Image from 'next/image';
-import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Tobias Wupperfeld | Web App Development | React TypeScript',
+  description:
+    'Tobias Wupperfelds web app development service, tailored solutions ✓ results driven ✓ full stack ✓ ui ux design ✓ agile methods ✓ get in touch now',
+};
 
 export default function Development() {
   return (
     <div>
       <Navigation page={Pages.services} />
       <div className="container mx-auto pb-40 px-4">
-        <AnimateOnScroll>
-          <h1 className="pt-32 pb-24 text-5xl font-bold bg-gradient-to-r from-azure to-palatinate_blue-400 text-transparent bg-clip-text">
-            Web App Development
-          </h1>
-        </AnimateOnScroll>
+        <PageHeading title="Web App Development" />
 
         <h2 className="uppercase font-semibold mb-8 text-xl text-slate-500">
           About this service
@@ -27,12 +30,12 @@ export default function Development() {
           the process, making sure your vision not only comes to life but also
           excels beyond your expectations.
         </p>
-        <p className="font-semibold text-xl mt-8 mb-4 text-azure-400">
+        <h3 className="font-semibold text-xl mt-8 mb-4 text-azure-400">
           What you can anticipate from my service:
-        </p>
+        </h3>
         <ol className="list-decimal pl-4 text-lg">
           <li className="mb-2">
-            <h3 className="font-semibold text-palatinate_blue">Expertise:</h3>
+            <h4 className="font-semibold text-palatinate_blue">Expertise:</h4>
             <p>
               I bring years of expertise in web app development to the table,
               providing you with top-notch guidance and delivering solutions
@@ -40,9 +43,9 @@ export default function Development() {
             </p>
           </li>
           <li className="mb-2">
-            <h3 className="font-semibold text-palatinate_blue">
+            <h4 className="font-semibold text-palatinate_blue">
               Tailored Solutions:
-            </h3>
+            </h4>
             <p>
               I understand that your project is unique, and I actively listen to
               your requirements. I&apos;ll develop a customized strategy that
@@ -51,9 +54,9 @@ export default function Development() {
             </p>
           </li>
           <li className="mb-2">
-            <h3 className="font-semibold text-palatinate_blue">
+            <h4 className="font-semibold text-palatinate_blue">
               Results-Driven Approach:
-            </h3>
+            </h4>
             <p>
               Your success is my primary focus. I offer actionable insights and
               recommendations to improve performance and enhance user
@@ -61,18 +64,18 @@ export default function Development() {
             </p>
           </li>
           <li className="mb-2">
-            <h3 className="font-semibold text-palatinate_blue">
+            <h4 className="font-semibold text-palatinate_blue">
               Maximizing ROI:
-            </h3>
+            </h4>
             <p>
               I assess your objectives and budget, empowering you to make
               informed decisions that optimize your investment.
             </p>
           </li>
           <li>
-            <h3 className="font-semibold text-palatinate_blue">
+            <h4 className="font-semibold text-palatinate_blue">
               Confidentiality:
-            </h3>
+            </h4>
             <p>
               Your project&apos;s details are treated with the utmost discretion
               and confidentiality. I respect the sensitive nature of your ideas
@@ -80,16 +83,45 @@ export default function Development() {
             </p>
           </li>
         </ol>
-        <p className="text-xl my-12">
-          Ready to make your web app dreams a reality? Contact me today to
-          schedule a consultation and embark on a journey to bring your vision
-          to life!
-        </p>
+
+        <h3 className="font-semibold text-xl mt-8 mb-4 text-azure-400">
+          What sets me apart:
+        </h3>
+        <ul className="text-lg mb-16 pl-4">
+          <li className="mb-2">
+            Deep expertise in typesafe React app development: I have a deep
+            understanding of typesafe React app development, which allows me to
+            build high-quality, scalable apps that are easy to maintain.
+          </li>
+          <li className="mb-2">
+            Always up-to-date with current trends: I am constantly researching
+            new products, tools, and technologies, especially AI tools, so that
+            I can integrate them into your app and make suggestions to maximize
+            your ROI.
+          </li>
+          <li className="mb-2">
+            Strong eye for UI and UX design: I have a strong eye for UI and UX
+            design, and I can take the user&apos;s perspective to better
+            understand how they are using your app and make enhancements.
+          </li>
+          <li className="mb-2">
+            Online marketing expertise: I started learning about online
+            marketing during my student days, and I now have a solid
+            understanding of how to market online businesses. This includes how
+            to get traffic to your app with SEO, paid traffic, social media, and
+            alternative tactics, as well as how to convert visitors into users.
+          </li>
+          <li>
+            Prussian work ethic: I was raised with traditional German values,
+            including precision and diligence. I am committed to delivering
+            high-quality work on time and within budget.
+          </li>
+        </ul>
 
         <h2 className="uppercase font-semibold mb-8 text-xl text-slate-500">
           What&apos;s included
         </h2>
-        <ul className="text-lg pl-4">
+        <ul className="text-lg pl-4 mb-16">
           <li className="mb-2">
             <h3 className="font-semibold text-palatinate_blue">
               Frontend Development
@@ -136,40 +168,15 @@ export default function Development() {
           </li>
         </ul>
 
-        <div className="my-16 py-16 px-8 border-2 rounded-xl shadow-sm bg-[url(/img/blob-intro.svg)] bg-no-repeat bg-top bg-white/60">
-          <h2 className="font-semibold text-4xl">Work with me</h2>
-          <Link href="/#contact">
-            <button className="flex gap-2 px-8 py-4 bg-palatinate_blue rounded-full mt-8 hover:bg-palatinate_blue-400 text-lg font-bold text-white tracking-wider transition duration-300">
-              <Image
-                src="/icons/arrow-right.svg"
-                alt="contact icon"
-                width="24"
-                height="24"
-              />
-              <p className="">Request to book</p>
-            </button>
-          </Link>
-        </div>
+        <ServiceRequestCard />
 
         <h2 className="uppercase font-semibold mt-16 mb-8 text-xl text-slate-500">
           More services
         </h2>
-        <div className="bg-white/60 rounded-xl border-2 flex justify-between items-center bg-[url(/img/blob-portfolio.svg)] bg-cover bg-top shadow-sm">
-          <Link href="/services/consultation">
-            <p className="text-lg font-semibold py-8 pl-8">
-              Business App Consultation
-            </p>
-          </Link>
-          <Link className="flex gap-2 pl-8" href="/#contact">
-            <Image
-              src="/icons/arrow-right.svg"
-              alt="contact icon"
-              width="24"
-              height="24"
-            />
-            <p className="font-semibold py-8 pr-8">Contact for pricing</p>
-          </Link>
-        </div>
+        <ServiceNavigationCard
+          name="Business App Consultation"
+          slug="/services/consultation"
+        />
       </div>
     </div>
   );

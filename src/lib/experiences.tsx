@@ -35,14 +35,14 @@ export const experiences = [
     description: (
       <>
         2019 - today: I&apos;ve been working on several projects. All my
-        ventures are listed here{' '}
+        ventures are listed on{' '}
         <Link
-          className="text-palatinate_blue hover:text-azure transition duration-300"
+          className="text-palatinate_blue hover:text-azure transition duration-300 font-semibold"
           href="https://wupperfeld.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          (wupperfeld.org)
+          Wupperfeld Ventures
         </Link>
         .<br></br>
         I&apos;m running a productized service provider specializing in
