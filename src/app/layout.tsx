@@ -3,6 +3,7 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
 import { Montserrat } from 'next/font/google';
 import type { Metadata } from 'next';
+import { GoogleAnalytics } from '@/util/GoogleAnalytics';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={montserrat.className}>
         {children}
+        <GoogleAnalytics />
         <Footer />
         <Analytics />
       </body>
